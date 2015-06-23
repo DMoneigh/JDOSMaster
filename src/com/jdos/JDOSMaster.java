@@ -27,7 +27,7 @@ public class JDOSMaster extends Object {
 	 */
 	public static final Server[] ATTACK_SERVERS = new Server[] {
 		new Server(1, "127.0.0.1", 4546), //id, ip, and port that JDOSServer is running on
-		new Server(2, "127.0.0.2", 5465) //id, ip, and port that JDOSServer is running on
+		new Server(2, "127.0.0.2", 4546) //id, ip, and port that JDOSServer is running on
 	};
 	
 	/**
