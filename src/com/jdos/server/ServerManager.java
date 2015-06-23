@@ -77,6 +77,11 @@ public class ServerManager extends Object {
 		return unusedServers.toArray(new Server[unusedServers.size()]);
 	}
 	
+	/**
+	 * Gets an array of used servers.
+	 * 
+	 * @return An array of used servers
+	 */
 	public static synchronized Server[] getUsedServers() {
 		List<Server> usedServers = new ArrayList<Server>();
 		for (Server server : JDOSMaster.ATTACK_SERVERS)
