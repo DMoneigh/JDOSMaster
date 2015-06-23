@@ -6,8 +6,10 @@ Java Denial of Service Server Master
 INFO
 ====
 
-\nThis same code was used in JStresser. http://www.jscanner.net/jstresser\n
+This same code was used in JStresser. http://www.jscanner.net/jstresser
+
 Make sure to add all JDOSServers to the ATTACK_SERVERS array list.
+
 Make sure that all attack servers have hping3 installed and are running JDOSServer as root
 
 
@@ -15,7 +17,9 @@ API
 ==================
 
 /attack?id=1&ip=127.0.0.1&port=80&method=syn&time=60 - starts an attack on a server with user id 1
+
 /stop?id=1 - stops the server that user id 1 started
+
 /check - lists times of all servers
 
 
