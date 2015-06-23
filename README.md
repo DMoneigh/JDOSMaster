@@ -8,7 +8,7 @@ INFO
 
 This same code was used in JStresser. http://www.jscanner.net/jstresser
 
-Make sure to add all JDOSServers to the ATTACK_SERVERS array list.
+Make sure to add all JDOSServers to the ATTACK_SERVERS array list. (i.e. new Server(id, ipAddress, port))
 
 Make sure that all attack servers have hping3 installed and are running JDOSServer as root
 
