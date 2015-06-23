@@ -6,7 +6,7 @@ Java Denial of Service Server Master
 INFO
 ====
 
-<ui>This same code was used in JStresser. http://www.jscanner.net/jstresser</ui>
+\nThis same code was used in JStresser. http://www.jscanner.net/jstresser\n
 Make sure to add all JDOSServers to the ATTACK_SERVERS array list.
 Make sure that all attack servers have hping3 installed and are running JDOSServer as root
 
